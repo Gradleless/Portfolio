@@ -1,0 +1,150 @@
+@import '@fontsource/fira-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--font-mono: 'Fira Mono', monospace;
+    /* ToDo: les autres variables au lieu de les hardcoder */
+}
+
+::selection {
+    background: #E5C3D1
+}  
+
+* {
+    background-color: rgb(67, 69, 95);
+    color: rgb(239, 223, 223);
+    font-family: var(--font-mono);
+}
+
+.leftport {
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: 60vw;
+    position: fixed;
+    left: 10vw;
+    margin-bottom: 100vh;
+    text-align: left;
+}
+
+.leftport * {
+    margin-bottom: 1rem;
+}
+
+.leftport>h1 {
+    color: #E5C3D1;
+
+}
+
+.leftport>h1,
+.leftport>h2,
+.leftport>p {
+    margin-left: 1vw;
+}
+
+.leftport a::selection {
+    color: #777AB3;
+}
+
+.leftport>p {
+    color: #777AB3;
+}
+
+.leftport {
+    @media screen and (max-width: 800px)  {
+        margin-right: 5vw;
+        margin-left: 0%;
+        left: 5vw;
+        margin-bottom: 5vh;
+        position: relative;
+        text-align: left;
+    }
+}
+
+.rightport {
+    margin-top: 7vh;
+    margin-right: auto;
+    margin-left: 50vw;
+    right: 5vw;
+    margin-bottom: 5vh;
+    color: rgb(157, 148, 135)
+}
+
+.rightport * {
+    color: rgb(157, 148, 135)
+}
+.rightport {
+    @media screen and (max-width: 800px)  {
+        margin-right: 0%;
+        margin-left: 0%;
+        left: 0;
+        margin-bottom: 1vh;
+        position: relative;
+        margin-top: 0vh;
+        text-align: center;
+    }
+}
+
+.rightport>h1 {
+    @media screen and (max-width: 800px)  {
+        margin-right: 30vw;
+    }
+}
+
+a {
+    width: 100%;
+    margin-right: 5vw;
+}
+
+.card {
+    background-color: rgb(70, 72, 97);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.card * {
+    background-color: rgb(70, 72, 97);
+}
+
+.card div>p {
+    background-color: rgb(80, 81, 102);
+}
+
+.card  {
+    @media screen and (max-width: 800px)  {
+        margin-right: 1vw;
+        margin-left: 2vw;
+    }
+}
+#about {
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    text-align: justify;
+
+    @media screen and (max-width: 800px)  {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 10vh;
+        text-align: justify;
+    }
+}
+
+a:hover {
+    color: #E5C3D1;
+}
+
+a:visited {
+    color: #E5C3D1;
+}
+
+.svgs {
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+    flex-wrap: wrap;
+    margin-left: 1vw;
+
+}
