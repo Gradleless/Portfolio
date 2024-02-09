@@ -7,6 +7,20 @@
 		<title>Portfolio - Lycia D.</title>
 		<meta name="title" content="Portfolio - Lycia D." />
 		<meta name="description" content="Portfolio - Lycia D." />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://lycia.anhost.fr/" />
+		<meta property="og:title" content="Portfolio - Lycia D." />
+		<meta property="og:description" content="Développeuse" />
+		<meta property="og:image" content="%sveltekit.assets%/jsp.png" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://lycia.anhost.fr/" />
+		<meta property="twitter:title" content="Portfolio - Lycia D." />
+		<meta property="twitter:description" content="Développeuse" />
+		<meta property="twitter:image" content="%sveltekit.assets%/jsp.png" />
 	</svelte:head>
 <div class="app">
 	<!-- <Header /> -->
