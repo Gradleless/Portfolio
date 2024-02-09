@@ -14,7 +14,7 @@
 		<meta property="og:url" content="https://lycia.anhost.fr/" />
 		<meta property="og:title" content="Portfolio - Lycia D." />
 		<meta property="og:description" content="Développeuse" />
-		<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+		<meta property="og:image" content=".../static/jsp.png" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
