@@ -19,7 +19,6 @@
 }
 
 .leftport {
-    margin-top: 7vh;
     margin-left: auto;
     margin-right: 60vw;
     position: fixed;
@@ -63,7 +62,7 @@
 }
 
 .rightport {
-    margin-top: 7vh;
+    margin-top: 30vh;
     margin-right: auto;
     margin-left: 50vw;
     right: 5vw;

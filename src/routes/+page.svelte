@@ -16,7 +16,7 @@
 	});
 
 </script>
-<canvas id="theme"></canvas>
+
 <div use:ref class="leftport">
 	<h1 class="text-3xl font-bold text-slate-500 dark:text-slate-400 mt-2 ">
 		<a href="https://github.com/mavenless/" target="_blank" rel="noopener noreferrer">Lycia D.</a>
