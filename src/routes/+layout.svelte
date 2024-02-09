@@ -6,7 +6,7 @@
 	<svelte:head>
 		<title>Portfolio - Lycia D.</title>
 		<meta name="title" content="Portfolio - Lycia D." />
-		<meta name="description" content="Portfolio - Lycia D." />
+		<meta name="description" content="Développeuse" />
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
