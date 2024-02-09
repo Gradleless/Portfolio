@@ -13,14 +13,14 @@
 		<meta property="og:url" content="https://lycia.anhost.fr/" />
 		<meta property="og:title" content="Portfolio - Lycia D." />
 		<meta property="og:description" content="Développeuse" />
-		<meta property="og:image" content="%sveltekit.assets%/jsp.png" />
+		<meta property="og:image" content="https://lycia.anhost.fr/jsp.png" />
 		
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://lycia.anhost.fr/" />
 		<meta property="twitter:title" content="Portfolio - Lycia D." />
 		<meta property="twitter:description" content="Développeuse" />
-		<meta property="twitter:image" content="%sveltekit.assets%/jsp.png" />
+		<meta property="twitter:image" content="https://lycia.anhost.fr/jsp.png" />
 	</svelte:head>
 <div class="app">
 	<!-- <Header /> -->
