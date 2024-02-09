@@ -21,6 +21,9 @@
 		<meta property="twitter:title" content="Portfolio - Lycia D." />
 		<meta property="twitter:description" content="Développeuse" />
 		<meta property="twitter:image" content="https://lycia.anhost.fr/jsp.png" />
+
+		<!-- Disabling dark reader -->
+		<meta name="darkreader-lock">
 	</svelte:head>
 <div class="app">
 	<!-- <Header /> -->
