@@ -17,7 +17,7 @@ async function getDataFromRepo() {
             description: repo.description || "No description",
             url: repo.html_url,
             language: repo.language || "No specified language",
-            date: new Date(repo.updated_at).toUTCString(),
+            date: new Date(repo.created_at).toUTCString(),
         });
     }
     
