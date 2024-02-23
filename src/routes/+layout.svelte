@@ -2,8 +2,10 @@
 	// import Header from './Header.svelte';
 	// import './styles.css';
 	import "../app.css";
-	import { inject } from '@vercel/analytics'
-	inject();
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 	<svelte:head>
 		<title>Portfolio - Lycia D.</title>
