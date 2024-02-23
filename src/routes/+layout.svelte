@@ -2,6 +2,8 @@
 	// import Header from './Header.svelte';
 	// import './styles.css';
 	import "../app.css";
+	import { inject } from '@vercel/analytics'
+	inject();
 </script>
 	<svelte:head>
 		<title>Portfolio - Lycia D.</title>
@@ -39,9 +41,6 @@
 </div>
 
 <style>
-	
-
-
 	footer {
 		padding: 12px;
 		text-align: center;

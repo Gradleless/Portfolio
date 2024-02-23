@@ -28,6 +28,8 @@
 	"dependencies": {
 		"@svelteuidev/composables": "^0.15.4",
 		"@svelteuidev/core": "^0.15.4",
+		"@vercel/analytics": "^1.2.2",
+		"analytics": "github:vercel/analytics",
 		"svelte-device-info": "^1.0.4"
 	}
 }
