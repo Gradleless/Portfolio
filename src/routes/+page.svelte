@@ -37,7 +37,7 @@
 			<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
 			<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="vercel" />
 			<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git" />
-			<object data="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/mavenless" type="image/svg+xml" title="github"></object>
+			<object data="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/gradleless" type="image/svg+xml" title="github"></object>
 			<object data="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&link=https://discord.com/users/566716997887590401" type="image/svg+xml" title="discord"></object>
 			<img src="https://img.shields.io/badge/Golang-blue?style=for-the-badge&logo=go" alt="golang" />
 			<img src="https://img.shields.io/badge/Tailwindcss-darkblue?style=for-the-badge&logo=tailwindcss" alt="tailwindcss" />
