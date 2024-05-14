@@ -1,4 +1,4 @@
-const link = "https://api.github.com/users/mavenless/repos"
+const link = "https://api.github.com/users/gradleless/repos"
 
 function getRepos() {
     return fetch(link)
