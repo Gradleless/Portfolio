@@ -1,12 +1,7 @@
 <script>
-	// import Header from './Header.svelte';
-	// import './styles.css';
 	import "../app.css";
-	import { dev } from '$app/environment';
-	import { inject } from '@vercel/analytics';
-
-	inject({ mode: dev ? 'development' : 'production' });
 </script>
+
 	<svelte:head>
 		<title>Portfolio - Lycia D.</title>
 		<meta name="title" content="Portfolio - Lycia D." />
@@ -30,14 +25,16 @@
 		<meta name="darkreader-lock">
 	</svelte:head>
 
-	<main class="relative">
+	<main class="relative bg-primary min-h-screen">
 		<slot />
 	</main>
 
-	<footer class="relative w-full text-[0.8rem] pb-5">
-		<div class="flex flex-col items-center">
-			<p class=" ml-20 max-lg:ml-12 max-sm:ml-0 text-center">Made with Svelte, Tailwind and ❤️ by <a href="https://github.com/mavenless/" class="transition ease-in delay-100 hover:-translate-y-1 hover:scale-110 hover:text-indigo-500 duration-100 font-bold">Lycia D.</a> </p>
-			<p class=" ">© 2024 Lycia D. All rights reserved.</p>
+	<footer class="relative w-full text-[0.8rem] pb-5 pt-5 bg-card text-secondary">
+		<div class="flex flex-col items-center *:bg-card bg-card">
+			<p class="">Made with Svelte, Tailwind and ❤️ by 
+				<a href="https://github.com/gradleless/" class="transition ease-in delay-100 hover:-translate-y-1 hover:scale-110 hover:text-indigo-500 duration-100 font-bold">Lycia D</a>.
+			</p>
+			<p>© 2024 Lycia D. All rights reserved.</p>
 		</div>
 	</footer>
 
